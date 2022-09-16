@@ -1,0 +1,52 @@
+@import "reset.css";
+body {
+    display: flex;
+    justify-content: center;
+}
+.login-box {
+    background-color: rgb(102,102,102);
+    width: 520px;
+    height: 325px;
+    border-radius: 50px;
+    padding: 30px 60px;
+    box-sizing: border-box;
+}
+.login-box__header {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.login-box__form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-box__form input {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+.login-box__form input:not([type="submit"]) {
+    background-color: rgb(153,153,153);
+    margin: 10px 0px;
+    padding: 10px 12px;
+    color: white;
+}
+.login-box__form input::placeholder {
+    color: white;
+}
+.login-box__checkbox {
+    color: white;
+    margin-bottom: 20px;
+}
+.login-box__loginbtn {
+    background-color: rgb(83,155,205);
+    margin-bottom: 10px;
+}
+.login-box__find-p-i {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
